@@ -1,0 +1,251 @@
+@font-face {
+    font-family: teste;
+    src: url(/spotify/Gotham-Spotify-Font/Gotham-Bold.otf);
+}
+
+@font-face {
+    font-family: Botao;
+    src: url(/spotify/Gotham-Spotify-Font/Gotham-XLightItalic.otf);
+}
+
+body {
+    background-color: black;
+}
+
+.container {
+    display: flex;
+}
+
+.borda-inicio {
+    width: 300px;
+    height: 100px;
+    background: rgb(28, 27, 27);
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.pesquisa-icone {
+    width: 45px;
+    height: 40px;
+    display: block;
+}
+
+#texto-inicio {
+    color: aliceblue;
+    display: flex;
+    font-family: teste;
+    margin-left: 15px;
+}
+
+.casinha-icone {
+    width: 45px;
+    height: 40px;
+    display: flex;
+    opacity: 0.2;
+}
+
+#texto-pesquisa {
+    color: aliceblue;
+    font-size: 15px;
+    font-family: teste;
+    margin-left: 15px;
+}
+
+.casinha {
+    display: flex;
+}
+
+.lupa {
+    display: flex;
+}
+
+#biblioteca {
+    width: 40px;
+    height: 40px;
+}
+
+.segunda-borda {
+    width: 300px;
+    height: 450px;
+    background: rgb(28, 27, 27);
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 15px;
+}
+
+#texto-biblioteca {
+    color: aliceblue;
+    font-size: 15px;
+    font-family: teste;
+    margin-left: 15px;
+}
+
+.biblioteca-div {
+    display: flex;
+}
+
+#mais-icon {
+    width: 30px;
+    height: 30px;
+    margin-left: 50px;
+    margin-top: 5px;
+}
+
+#seta-icon {
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    margin-top: 10px;
+    opacity: 0.5;
+}
+
+.button {
+    background-color: rgb(62, 62, 62);
+    color: aliceblue;
+    font-family: teste;
+    font-size: 15px;
+    border-radius: 15px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.button-artista {
+    background-color: rgb(62, 62, 62);
+    color: aliceblue;
+    font-family: teste;
+    font-size: 15px;
+    border-radius: 15px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+#segunda-lupa {
+    width: 25px;
+    height: 25px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+#recentes {
+    color: aliceblue;
+    font-size: 13px;
+    font-family: teste;
+    margin-left: 160px;
+    margin-top: 20px;
+    opacity: 0.5;
+}
+
+.segunda-parte {
+    display: flex;
+}
+
+#musicas-favoritas {
+    width: 65px;
+}
+
+#texto-favoritas {
+    color: aliceblue;
+    font-size: 10px;
+    font-family: teste;
+    padding: 0px;
+    opacity: 0.5;
+
+}
+
+.musicas {
+    color: aliceblue;
+    font-size: 15px;
+    font-family: teste;
+}
+
+.numeros {
+    color: aliceblue;
+    font-size: 10px;
+    font-family: teste;
+    padding: 0px 12px;
+    opacity: 0.5;
+}
+
+.quarta-parte {
+    display: flex;
+}
+
+#paiva {
+    width: 50px;
+    margin: 5px 10px;
+}
+
+.nome {
+    color: aliceblue;
+    font-size: 15px;
+    font-family: teste;
+}
+
+.parte-2 {
+    display: flex;
+}
+
+.parte-3 {
+    display: flex;
+}
+
+#migo {
+    width: 50px;
+    margin: 5px 10px;
+}
+
+.Principal {
+    display: flex;
+}
+
+.principal-margem {
+    width: 800px;
+    height: 450px;
+    background: rgb(28, 27, 27);
+    padding: 20px;
+    border-radius: 15px;
+    margin-left: 15px;
+}
+
+main {
+    display: flex;
+}
+
+.bom-dia {
+    color: aliceblue;
+    font-family: teste;
+    margin: 15px 20px;
+}
+.img-seta-direita{
+    width: 21px;
+    
+}
+.img-seta-esquerda{
+    width: 60px;
+}
+.bonde-do-funk{
+   width: 80px;
+   border-radius: 5px;
+}
+.Bonde{
+    opacity: 0.9;
+    color: aliceblue;
+    font-family: teste;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #494949;
+    border-radius: 6px;
+    margin: 22px;
+    width: 180px;
+}
+#texto-bonde{
+    margin-left: 15px;
+}
+.Sla{
+  display: flex;
+}
+.hits{
+    width: 80px;
+   border-radius: 5px;
+}
